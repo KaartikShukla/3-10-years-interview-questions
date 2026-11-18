@@ -39,7 +39,7 @@ print(s)        # 'hi' - a new string was created
 **5. What is the difference between list, tuple, set, and dict?**
 
 - `list`: ordered, mutable, allows duplicates
-- `tuple`: ordered, immutable, good for fixed records; hashable if its items are
+- `tuple`: ordered, immutable, good for fixed records
 - `set`: unordered, unique hashable items, O(1) average membership test
 - `dict`: key → value mapping, insertion-ordered (guaranteed since 3.7), O(1) average lookup
 
